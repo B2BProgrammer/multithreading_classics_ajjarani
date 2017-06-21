@@ -4,6 +4,8 @@ class SimpleThread extends Thread {
    public SimpleThread(int ID) {myID = ID;}
    public void run() {System.out.println("Thread " + myID + " is running.");}
    private int myID;
+   
+   // Testing
 }
 
 public class Demo1 {
